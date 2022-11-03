@@ -64,7 +64,7 @@ audit_app <- function(
   headless_actions <- substitute(headless_actions)
 
   # Technical requirements
-  check_audit_requirements()
+  # check_audit_requirements()
 
   # Scope
   scope <- match.arg(scope)
